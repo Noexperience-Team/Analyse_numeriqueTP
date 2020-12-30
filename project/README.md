@@ -6,9 +6,9 @@
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'interpolation: </span>
 
 <img align='center' src='images/simulation_gif.gif'/>
-![simulation_gif.gif](attachment:images/simulation_gif.gif)
+
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'intégration: </span>
 
 <img align='center' src='images/simulation_gif2.gif'/>
-![simulation_gif2.gif](attachment:images/simulation_gif2.gif)
+
