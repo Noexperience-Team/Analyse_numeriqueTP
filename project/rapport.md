@@ -121,7 +121,8 @@ Les méthode qu'on va utiliser pour calculer l'intergrale I sont :
 <p align="center">
   <img  src="images/trap%C3%A9ze.png"/>
 </p>
-- **`Méthodes de Simpson`**
+
+-**`Méthodes de Simpson`**
 <p align="center">
   <img  src="images/ps205_982234Simpson.gif"/>
 </p>
