@@ -73,9 +73,10 @@ Pour représenter une fonction en informatique, on prend en général « un cert
 Dans un premier temps, on peut prendre des points régulièrement répartis dans l'intervalle. Cependant, cela peut donner des « effets de bord » (le polynôme représente bien au milieu de l'intervalle, mais a un comportement différent aux bords bien que passant par les points), et pose problème dans les endroits où les variations de pente sont importantes.
 
 Pour éviter les effets de bord, on utilise des points répartis selon une fonction sinusoïdale.
+<p align="center">
+  <img  src="images/1.png"/>
+</p>
 
-<img width="100" height="100" align="center" src="images/1.png"/>
-![1.png](attachment:1.png)
 
 <div class="alert alert-warning">
 Pour chaque intervalle, on calcule la différence entre le polynôme et la fonction au point médian, et si cet écart est supérieur à un seuil de tolérance, on rajoute un point au milieu de l'intervalle.
@@ -101,27 +102,47 @@ Dans tous ces cas, on préfèrera calculer **`numériquement la valeur de l’in
 ## <span style="color:	#AF3B8A ">2. Principe: </span>
 
 L’idée principale est de trouver des méthodes qui permettent de calculer rapidement une valeur approchée I de l’intégrale à calculer tel que:
-![2.PNG](attachment:2.PNG)
+<p align="center">
+  <img  src="images/2.PNG"/>
+</p>
+
 Les méthode qu'on va utiliser pour calculer l'intergrale I sont :
 - **`Méthode des réctangles`**
-![rect6.gif](attachment:rect6.gif)
+<p align="center">
+  <img  src="images/rect6.gif"/>
+</p>
+
 - **`Méthode du point milieu`**
-![Trapezium2.gif](attachment:Trapezium2.gif)
+<p align="center">
+  <img  src="images/Trapezium2.gif"/>
+</p>
+
 - **`Méthode des trapézes`**
-![trap%C3%A9ze.png](attachment:trap%C3%A9ze.png)
+<p align="center">
+  <img  src="images/trap%C3%A9ze.png"/>
+</p>
 - **`Méthodes de Simpson`**
-![ps205_982234Simpson.gif](attachment:ps205_982234Simpson.gif)
+<p align="center">
+  <img  src="ps205_982234Simpson.gif"/>
+</p>
+
 
 # <span style="color:	olivedrab ">VI. Environnement de travail: </span>
 
 En fait **`L'interface utilisateur graphique (GUI)`** est une forme d'interface utilisateur qui permet aux utilisateurs d'interagir avec les ordinateurs via des indicateurs visuels utilisant des éléments tels que des icônes, des menus, des fenêtres, etc.
 
 Le langage de programmation que nous avons utilisé dans notre projet: c'est le langage **`Python`** en utilisant le module **`Tkinter`**
-![4.PNG](attachment:4.PNG)
+<p align="center">
+  <img  src="images/4.PNG"/>
+</p>
+
 
 
 #### Qu'est-ce que Tkinter?
-![6.PNG](attachment:6.PNG)
+<p align="center">
+  <img  src="images/6.PNG"/>
+</p>
+
 
 
 **`Tkinter`** est le module python intégré utilisé pour créer des applications GUI. C'est l'un des modules les plus couramment utilisés pour créer des applications GUI en Python car il est **`simple`** et **`facile`** à utiliser.
@@ -141,8 +162,10 @@ Dans cette partie, nous allons présenter les différentes interfaces de notre p
 - **`Interface pour implémenter l'intégration numérique`**
 
 ## <span style="color:	#AF3B8A ">1. Interface 1: </span>
+<p align="center">
+  <img  src="images/interface1.PNG"/>
+</p>
 
-![interface1.PNG](attachment:interface1.PNG)
 
 <div class="alert alert-success">
     
@@ -160,10 +183,14 @@ Cette interface contient 3 boutons:
 </div>
 
 ## <span style="color:	#AF3B8A ">2. Interface 2: </span>
+<p align="center">
+  <img  src="images/interface-2.PNG"/>
+</p>
 
-![interface-2.PNG](attachment:interface-2.PNG)
+<p align="center">
+  <img  src="images/integrale_I.jfif"/>
+</p>
 
-![integrale_I.jfif](attachment:integrale_I.jfif)
 
 
 <div class="alert alert-success">
@@ -190,10 +217,14 @@ Cette interface contient 3 boutons:
 
 
 ## <span style="color:	#AF3B8A ">3. Interface 3: </span>
+<p align="center">
+  <img  src="images/interface3-1.jfif"/>
+</p>
 
-![interface3-1.jfif](attachment:interface3-1.jfif)
+<p align="center">
+  <img  src="images/interface3-2.jfif"/>
+</p>
 
-![interface3-2.jfif](attachment:interface3-2.jfif)
 
 <div class="alert alert-success">
      
@@ -211,9 +242,13 @@ Cette interface contient 3 boutons:
 #### Nous avons simulé notre travail sous forme de GIF ci-dessous pour mieux comprendre le flux des boutons et l'affichage des courbes.
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'interpolation: </span>
+<p align="center">
+  <img  src="images/simulation_gif1.gif"/>
+</p>
 
-![simulation_gif.gif](attachment:simulation_gif.gif)
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'intégration: </span>
+<p align="center">
+  <img  src="images/simulation_gif2.gif"/>
+</p>
 
-![simulation_gif2.gif](attachment:simulation_gif2.gif)
