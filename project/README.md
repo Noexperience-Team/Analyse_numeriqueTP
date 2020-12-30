@@ -75,7 +75,7 @@ Dans un premier temps, on peut prendre des points régulièrement répartis dans
 Pour éviter les effets de bord, on utilise des points répartis selon une fonction sinusoïdale.
 
 
-![1.png](attachment:1.png)
+![1.png](attachment:images/1.png)
 
 <div class="alert alert-warning">
 Pour chaque intervalle, on calcule la différence entre le polynôme et la fonction au point médian, et si cet écart est supérieur à un seuil de tolérance, on rajoute un point au milieu de l'intervalle.
@@ -96,32 +96,32 @@ Dans certains cas très limités, une telle **`intégrale`** peut être calculé
 - Le calcul analytique est long, compliqué et rébarbatif
 - Le résultat de l’intégrale est une fonction compliquée qui fait appel à d’autres fonctions elles-même longues à évaluer
 - Cette intégrale n’a pas d’expression analytique
-Dans tous ces cas, on préfèrera calculer **`numériquement la valeur de l’intégrale I`**.
+Dans tous ces cas, on préfèrera_ calculer **`numériquement la valeur de l’intégrale I`**.
 
 ## <span style="color:	#AF3B8A ">2. Principe: </span>
 
 L’idée principale est de trouver des méthodes qui permettent de calculer rapidement une valeur approchée I de l’intégrale à calculer tel que:
-![2.PNG](attachment:2.PNG)
+![2.PNG](attachment:images/2.PNG)
 Les méthode qu'on va utiliser pour calculer l'intergrale I sont :
 - **`Méthode des réctangles`**
-![rect6.gif](attachment:rect6.gif)
+![rect6.gif](attachment:images/rect6.gif)
 - **`Méthode du point milieu`**
-![Trapezium2.gif](attachment:Trapezium2.gif)
+![Trapezium2.gif](attachment:images/Trapezium2.gif)
 - **`Méthode des trapézes`**
-![trap%C3%A9ze.png](attachment:trap%C3%A9ze.png)
+![trap%C3%A9ze.png](attachment:images/trap%C3%A9ze.png)
 - **`Méthodes de Simpson`**
-![ps205_982234Simpson.gif](attachment:ps205_982234Simpson.gif)
+![ps205_982234Simpson.gif](attachment:images/ps205_982234Simpson.gif)
 
 # <span style="color:	olivedrab ">VI. Environnement de travail: </span>
 
 En fait **`L'interface utilisateur graphique (GUI)`** est une forme d'interface utilisateur qui permet aux utilisateurs d'interagir avec les ordinateurs via des indicateurs visuels utilisant des éléments tels que des icônes, des menus, des fenêtres, etc.
 
 Le langage de programmation que nous avons utilisé dans notre projet: c'est le langage **`Python`** en utilisant le module **`Tkinter`**
-![4.PNG](attachment:4.PNG)
+![4.PNG](attachment:images/4.PNG)
 
 
 #### Qu'est-ce que Tkinter?
-![6.PNG](attachment:6.PNG)
+![6.PNG](attachment:images/6.PNG)
 
 
 **`Tkinter`** est le module python intégré utilisé pour créer des applications GUI. C'est l'un des modules les plus couramment utilisés pour créer des applications GUI en Python car il est **`simple`** et **`facile`** à utiliser.
@@ -142,7 +142,7 @@ Dans cette partie, nous allons présenter les différentes interfaces de notre p
 
 ## <span style="color:	#AF3B8A ">1. Interface 1: </span>
 
-![interface1.PNG](attachment:interface1.PNG)
+![interface1.PNG](attachment:images/interface1.PNG)
 
 <div class="alert alert-success">
     
@@ -161,9 +161,9 @@ Cette interface contient 3 boutons:
 
 ## <span style="color:	#AF3B8A ">2. Interface 2: </span>
 
-![interface-2.PNG](attachment:interface-2.PNG)
+![interface-2.PNG](attachment:images/interface-2.PNG)
 
-![integrale_I.jfif](attachment:integrale_I.jfif)
+![integrale_I.jfif](attachment:images/integrale_I.jfif)
 
 
 <div class="alert alert-success">
@@ -191,9 +191,9 @@ Cette interface contient 3 boutons:
 
 ## <span style="color:	#AF3B8A ">3. Interface 3: </span>
 
-![interface3-1.jfif](attachment:interface3-1.jfif)
+![interface3-1.jfif](attachment:images/interface3-1.jfif)
 
-![interface3-2.jfif](attachment:interface3-2.jfif)
+![interface3-2.jfif](attachment:images/interface3-2.jfif)
 
 <div class="alert alert-success">
      
@@ -212,8 +212,8 @@ Cette interface contient 3 boutons:
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'interpolation: </span>
 
-![simulation_gif.gif](attachment:simulation_gif.gif)
+![simulation_gif.gif](attachment:images/simulation_gif.gif)
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'intégration: </span>
 
-![simulation_gif2.gif](attachment:simulation_gif2.gif)
+![simulation_gif2.gif](attachment:images/simulation_gif2.gif)
