@@ -5,7 +5,7 @@
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'interpolation: </span>
 
-<img align='center' src='images/simulation_gif.gif'/>
+<img align='center' src='images/simulation_gif1.gif'/>
 
 
 ## <span style="color:	#3374D5 ">Simulation pour l'interface d'intégration: </span>
