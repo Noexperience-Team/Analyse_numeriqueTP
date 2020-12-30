@@ -74,7 +74,7 @@ Dans un premier temps, on peut prendre des points régulièrement répartis dans
 
 Pour éviter les effets de bord, on utilise des points répartis selon une fonction sinusoïdale.
 
-
+<img src='images/1.png'/>
 ![1.png](attachment:images/1.png)
 
 <div class="alert alert-warning">
