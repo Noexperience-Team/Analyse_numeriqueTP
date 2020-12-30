@@ -123,7 +123,7 @@ Les méthode qu'on va utiliser pour calculer l'intergrale I sont :
 </p>
 - **`Méthodes de Simpson`**
 <p align="center">
-  <img  src="ps205_982234Simpson.gif"/>
+  <img  src="images/ps205_982234Simpson.gif"/>
 </p>
 
 
